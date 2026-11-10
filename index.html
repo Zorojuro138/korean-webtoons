@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11131b">
+  <meta name="description" content="An interactive classroom presentation exploring Korean manhwa history, webtoon culture, and stories that travel across screens and borders.">
+  <title>Between the Panels — Korean Manhwa & Webtoon Culture</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Between the Panels home"><span class="brand-mark">B<span>/</span>P</span><span>BETWEEN THE PANELS</span></a>
+    <div class="top-right"><span class="live"><i></i> CLASS PRESENTATION</span><button id="fullscreen" class="icon" title="Fullscreen (F)" aria-label="Toggle fullscreen">⛶</button></div>
+  </header>
+  <main>
+    <div id="deck" class="deck" aria-live="polite"></div>
+    <div class="progress" aria-hidden="true"><div id="progress-fill"></div></div>
+  </main>
+  <footer class="controls">
+    <div class="control-left">
+      <span class="count"><b id="current">01</b><i>/</i><span id="total">12</span></span>
+      <button id="prev" class="arrow" aria-label="Previous slide">←</button>
+      <button id="next" class="arrow" aria-label="Next slide">→</button>
+    </div>
+    <nav id="dots" aria-label="Presentation scenes"></nav>
+    <div class="control-right">
+      <button id="timer" class="timer" aria-label="Start presentation timer">START TIMER <span>▶</span></button>
+      <button id="notes" class="notes-button" aria-label="Show speaker notes">NOTES <span>N</span></button>
+      <button id="handouts" class="handouts-button" aria-expanded="false">HANDOUTS <span>↗</span></button>
+    </div>
+  </footer>
+  <div class="handouts" id="handouts-menu" hidden>
+    <button data-go="references">Sources & further reading <span>↗</span></button>
+    <button data-go="vocabulary">Vocabulary page <span>↗</span></button>
+    <button data-go="speakers">Speaker run sheet <span>↗</span></button>
+    <button id="print">Print / save as PDF <span>⤓</span></button>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
