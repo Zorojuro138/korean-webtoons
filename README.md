@@ -12,6 +12,12 @@ python -m http.server 8000
 
 Then open `http://localhost:8000`. The presentation uses plain HTML, CSS, and JavaScript; no build step or external runtime dependencies are required. Internet access is needed for linked references and the web font.
 
+## Deploy to Vercel
+
+The site is static and its entry point is the root-level `index.html`. The included `vercel.json` explicitly selects Vercel's **Other** preset, disables a framework build command, and publishes the repository root as the output directory.
+
+In the Vercel project settings, set **Root Directory** to the repository root (leave it blank or use `.`), with **Framework Preset** set to **Other**. Do not select `android`, `assets`, or a nonexistent `public` folder as the project root or output directory. Redeploy after connecting the repository or changing these settings.
+
 ## Presentation controls
 
 - Arrow keys, Space, or the on-screen arrows advance/back up.
