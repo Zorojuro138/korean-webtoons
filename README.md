@@ -31,7 +31,9 @@ The run sheet gives six presenters two 60-second scenes each. It also explains h
 
 ## Search by concept
 
-Select **Concept Finder** in the top bar to look up themes and ideas rather than series titles. The finder compares a query with editorial tags for 11 examples in WEBTOON's English catalog and links each result to its official series page. The sample is curated, not exhaustive or live; no result means only that the current sample has no close match.
+Select **Concept Finder** in the top bar to search a premise or theme, not just a title. The local search ranks title, genre, and short synopsis text for 23 English-edition WEBTOON series, expands common phrasing (such as “second chance” or “level up”), and explains which query terms matched. Each result links to its official series page.
+
+Every query also gets a link to WEBTOON's own public English search (`/en/search?keyword=...`). The official site is the broader, changing source; its page opens directly rather than being fetched through this static site. A direct cross-origin browser fetch of that search fails, so the local index is not presented as live or exhaustive and does not rely on scraping or a private endpoint. A missing local result means only that the maintained index did not match; use the official search link for titles outside it. The index's titles and paraphrased synopses were checked against official WEBTOON English series pages on **November 11, 2026**; the catalog can change afterward.
 
 ## Content and image notes
 

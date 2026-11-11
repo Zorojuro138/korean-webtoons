@@ -246,6 +246,7 @@ h3 { font-family: var(--display); }
 .concept-search-row { display: flex; gap: 8px; margin-top: 8px; }
 .concept-search-row input { min-width: 0; flex: 1; padding: 13px 15px; border: 1px solid #ffffff35; border-radius: 5px; background: #1b1d28; color: var(--ink); font-size: 13px; }
 .concept-search-row input::placeholder { color: #858694; }
+.concept-search-row input:focus-visible, .concept-search-row button:focus-visible, .concept-suggestions button:focus-visible, .concept-live-link:focus-visible, .concept-card a:focus-visible { outline: 2px solid var(--mint); outline-offset: 3px; }
 .concept-search-row button { padding: 0 15px; border: 1px solid #f6d46f77; border-radius: 5px; background: #f6d46f15; color: var(--gold); cursor: pointer; font: 7px var(--mono); letter-spacing: .06em; white-space: nowrap; }
 .concept-search-row button:hover { background: #f6d46f28; }
 .concept-search-row button span { margin-left: 6px; color: var(--coral); }
@@ -256,12 +257,14 @@ h3 { font-family: var(--display); }
 .concept-prompt { color: var(--muted); font-size: 11px; line-height: 1.5; }
 .concept-count { margin-bottom: 10px; color: var(--muted); }
 .concept-count b { display: inline; margin-right: 8px; color: var(--coral); }
+.concept-live-link { display: inline-block; margin: 0 0 12px; color: var(--mint); font-size: 11px; }
 .concept-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; }
 .concept-card { padding: 12px 14px; border: 1px solid var(--line); border-radius: 5px; background: #191b25; }
 .concept-card-heading { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 10px; }
 .concept-card h3 { margin: 0; font-size: 14px; letter-spacing: -.035em; }
 .concept-card-heading span { color: var(--dim); font: 6px var(--mono); text-transform: uppercase; }
 .concept-card p { margin: 7px 0 0; color: #b9b8c2; font-size: 10px; line-height: 1.5; }
+.concept-card .concept-rationale { color: var(--mint); font-size: 9px; }
 .concept-card a { display: inline-block; margin-top: 8px; color: var(--gold); text-decoration: none; font: 7px var(--mono); }
 .concept-card a:hover { text-decoration: underline; }
 .concept-coverage { max-width: 850px; margin: 17px 0 0; color: #92939f; font: 9px/1.6 var(--sans); }
@@ -331,7 +334,7 @@ h3 { font-family: var(--display); }
   .balance-pair { gap: 5px; margin-top: 12px; }.balance-side { padding: 8px; }.balance-side p { margin-top: 7px; font-size: 8px; }.balance-label { font-size: 5px; }
   .finale { flex-direction: column-reverse; }.finale-art { min-height: 200px; gap: 10px; }.finale-panel { height: 58px; width: 70%; }.finale-panel>span { font-size: 23px; }.finale-copy h2 { font-size: clamp(40px,9.5vw,58px); }.closing { padding: 9px 11px; }.closing p { font-size: 10px; }.finale-credit { margin-top: 10px; font-size: 6px; }
   .appendix.active { display: block; }.appendix-copy h2 { font-size: 47px; }.appendix-copy .lede { font-size: 10px; margin-bottom: 12px; }
-  .concept-form { margin-top: 14px; }.concept-search-row { gap: 5px; }.concept-search-row input { padding: 10px; font-size: 11px; }.concept-search-row button { padding: 0 8px; font-size: 5px; }.concept-suggestions { gap: 5px; margin-top: 8px; }.concept-suggestions button { padding: 6px 8px; font-size: 6px; }.concept-results { margin-top: 14px; }.concept-grid { grid-template-columns: 1fr; gap: 6px; }.concept-card { padding: 9px 10px; }.concept-card h3 { font-size: 13px; }.concept-card p { font-size: 9px; }.concept-card a { font-size: 6px; }.concept-coverage { margin-top: 12px; font-size: 7px; }
+  .concept-form { margin-top: 14px; }.concept-search-row { gap: 5px; }.concept-search-row input { padding: 10px; font-size: 11px; }.concept-search-row button { padding: 0 8px; font-size: 5px; }.concept-suggestions { gap: 5px; margin-top: 8px; }.concept-suggestions button { padding: 6px 8px; font-size: 6px; }.concept-results { margin-top: 14px; }.concept-live-link { font-size: 9px; }.concept-grid { grid-template-columns: 1fr; gap: 6px; }.concept-card { padding: 9px 10px; }.concept-card h3 { font-size: 13px; }.concept-card p { font-size: 9px; }.concept-card a { font-size: 6px; }.concept-coverage { margin-top: 12px; font-size: 7px; }
   .reference-grid { gap: 14px; }.reference-list a { font-size: 8px; padding: 7px 0; }.reference-list small { font-size: 5px; }.caution { font-size: 7px; }
   .vocab-grid { grid-template-columns: repeat(2,1fr); gap: 6px; }.vocab-grid article { min-height: 105px; padding: 9px; }.vocab-grid h3 { margin: 5px 0 4px; font-size: 12px; }.vocab-grid p { font-size: 7px; }
   .speaker-row { grid-template-columns: 78px minmax(83px,.8fr) minmax(105px,1.2fr); gap: 6px; padding: 5px 6px; font-size: 5.5px; min-height: 35px; }.speaker-row.head { font-size: 5px; }.speaker-row input { padding: 4px; font-size: 9px; }.speaker-guide .caution { margin-top: 10px; }
