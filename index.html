@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#11131b">
-  <meta name="description" content="An interactive classroom presentation exploring Korean manhwa history, webtoon culture, and stories that travel across screens and borders.">
+  <meta name="description" content="An interactive presentation exploring Korean manhwa history, webtoon culture, and a sourced finder for stories by concept.">
   <title>Between the Panels — Korean Manhwa & Webtoon Culture</title>
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
@@ -12,7 +12,7 @@
 <body>
   <header class="topbar">
     <a class="brand" href="#" aria-label="Between the Panels home"><span class="brand-mark">B<span>/</span>P</span><span>BETWEEN THE PANELS</span></a>
-    <div class="top-right"><span class="live"><i></i> CLASS PRESENTATION</span><button id="fullscreen" class="icon" title="Fullscreen (F)" aria-label="Toggle fullscreen">⛶</button></div>
+    <div class="top-right"><span class="live"><i></i> CLASS PRESENTATION</span><button id="concept-finder-open" class="concept-trigger" type="button">CONCEPT FINDER <span>↗</span></button><button id="fullscreen" class="icon" title="Fullscreen (F)" aria-label="Toggle fullscreen">⛶</button></div>
   </header>
   <main>
     <div id="deck" class="deck" aria-live="polite"></div>
@@ -32,6 +32,7 @@
     </div>
   </footer>
   <div class="handouts" id="handouts-menu" hidden>
+    <button data-go="concept-finder">Search by concept <span>↗</span></button>
     <button data-go="references">Sources & further reading <span>↗</span></button>
     <button data-go="vocabulary">Vocabulary page <span>↗</span></button>
     <button data-go="speakers">Speaker run sheet <span>↗</span></button>

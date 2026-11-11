@@ -29,6 +29,10 @@ In the Vercel project settings, set **Root Directory** to the repository root (l
 
 The run sheet gives six presenters two 60-second scenes each. It also explains how five presenters can divide the same 12-minute total equally.
 
+## Search by concept
+
+Select **Concept Finder** in the top bar to look up themes and ideas rather than series titles. The finder compares a query with editorial tags for 11 examples in WEBTOON's English catalog and links each result to its official series page. The sample is curated, not exhaustive or live; no result means only that the current sample has no close match.
+
 ## Content and image notes
 
 The presentation distinguishes manhwa (Korean comics broadly) from webtoons (a digital, often vertical-scroll format). It treats 1909 newspaper cartooning as an early documented milestone, not as the singular origin of all Korean comics, and discusses the later shift to digital platforms with cautious, sourced language.

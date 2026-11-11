@@ -116,7 +116,14 @@ const citations = [
     ["The Greatest Estate Developer","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/fantasy/the-greatest-estate-developer/list?title_no=3596"],
     ["The Spark in Your Eyes","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/fantasy/the-spark-in-your-eyes/list?title_no=3210"],
     ["Omniscient Reader","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/action/omniscient-reader/list?title_no=2154"],
-    ["Return of the Blossoming Blade","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/action/return-of-the-blossoming-blade/list?title_no=2849"]
+    ["Return of the Blossoming Blade","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/action/return-of-the-blossoming-blade/list?title_no=2849"],
+    ["Marry My Husband","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/romance/marry-my-husband/list?title_no=4572"],
+    ["Yumi's Cells","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/slice-of-life/yumi-cell/list?title_no=478"],
+    ["Sweet Home","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/thriller/sweethome/list?title_no=1285"],
+    ["The Sound of Your Heart","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/comedy/the-sound-of-your-heart/list?title_no=269"],
+    ["The Boxer","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/sports/the-boxer/list?title_no=2027"],
+    ["Mosquito Wars","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/sf/mosquito-wars/list?title_no=2404"],
+    ["The Horizon","WEBTOON · OFFICIAL SERIES PAGE","https://www.webtoons.com/en/drama/the-horizon/list?title_no=3141"]
   ]},
   { group: "CULTURE, HISTORY & INDUSTRY", links: [
     ["Understanding Korean Webtoon Culture: Transmedia Storytelling, Digital Platforms, and Genres","DAL YONG JIN · 2022 · BRILL","https://doi.org/10.1163/9781684176724"],
@@ -129,6 +136,149 @@ const citations = [
     ["Topic and presentation requirements","PBL brief · 2026–27",""]
   ]}
 ];
+
+const conceptCatalog = [
+  {
+    title: "The Greatest Estate Developer",
+    category: "Fantasy · Comedy",
+    concepts: ["engineering", "construction", "invention", "entrepreneurship", "community", "public works", "isekai", "problem solving"],
+    reason: "An engineering student wakes in a fantasy novel and uses civil-engineering know-how to improve a struggling estate.",
+    url: "https://www.webtoons.com/en/fantasy/the-greatest-estate-developer/list?title_no=3596"
+  },
+  {
+    title: "The Spark in Your Eyes",
+    category: "Fantasy · War & redemption",
+    concepts: ["war", "grief", "revenge", "prejudice", "healing", "romance", "enemies", "loss"],
+    reason: "A war-orphaned pharmacist seeks revenge on the person he blames for his parents' deaths, then confronts a more complicated truth.",
+    url: "https://www.webtoons.com/en/fantasy/the-spark-in-your-eyes/list?title_no=3210"
+  },
+  {
+    title: "Omniscient Reader",
+    category: "Action · Apocalyptic fantasy",
+    concepts: ["apocalypse", "survival", "fantasy", "fate", "reading", "knowledge", "friendship", "monsters"],
+    reason: "The world becomes the setting of a web novel one reader has finished, turning his knowledge of the plot into a survival challenge.",
+    url: "https://www.webtoons.com/en/action/omniscient-reader/list?title_no=2154"
+  },
+  {
+    title: "Return of the Blossoming Blade",
+    category: "Action · Martial arts",
+    concepts: ["martial arts", "history", "second chance", "rebirth", "restoration", "discipline", "comeback", "fantasy"],
+    reason: "A warrior awakens a century after a devastating battle and sets out to restore his fallen sect.",
+    url: "https://www.webtoons.com/en/action/return-of-the-blossoming-blade/list?title_no=2849"
+  },
+  {
+    title: "Marry My Husband",
+    category: "Romance · Drama",
+    concepts: ["revenge", "romance", "second chance", "betrayal", "marriage", "cancer", "choices", "time travel"],
+    reason: "After betrayal and death, Jiwon returns to her younger self and plans a different future, beginning with revenge.",
+    url: "https://www.webtoons.com/en/romance/marry-my-husband/list?title_no=4572"
+  },
+  {
+    title: "Yumi's Cells",
+    category: "Slice of life · Romance",
+    concepts: ["emotions", "psychology", "romance", "relationships", "work", "daily life", "feelings", "comedy"],
+    reason: "Yumi's everyday experiences are shown through the cells in her brain, giving inner thoughts and feelings a cast of their own.",
+    url: "https://www.webtoons.com/en/slice-of-life/yumi-cell/list?title_no=478"
+  },
+  {
+    title: "Sweet Home",
+    category: "Thriller · Horror",
+    concepts: ["horror", "survival", "monsters", "apocalypse", "fear", "isolation", "thriller", "family"],
+    reason: "A reclusive teenager and his neighbors face a monster outbreak while sheltering inside their apartment building.",
+    url: "https://www.webtoons.com/en/thriller/sweethome/list?title_no=1285"
+  },
+  {
+    title: "The Sound of Your Heart",
+    category: "Comedy · Slice of life",
+    concepts: ["comedy", "family", "everyday life", "absurdity", "parody", "relationships", "humor", "slice of life"],
+    reason: "The official description frames its everyday-life setting as absurd comedy, packed with wit, sarcasm, and parody.",
+    url: "https://www.webtoons.com/en/comedy/the-sound-of-your-heart/list?title_no=269"
+  },
+  {
+    title: "The Boxer",
+    category: "Sports · Drama",
+    concepts: ["sports", "boxing", "competition", "ambition", "training", "mentorship", "trauma", "determination"],
+    reason: "A boxing-centered sports drama follows a gifted fighter and the people shaped by his rise in the ring.",
+    url: "https://www.webtoons.com/en/sports/the-boxer/list?title_no=2027"
+  },
+  {
+    title: "Mosquito Wars",
+    category: "Science fiction · Action",
+    concepts: ["science fiction", "sci fi", "survival", "insects", "war", "apocalypse", "military", "humanity"],
+    reason: "After mosquitoes become Earth's dominant predators, a small human population depends on a military team and crucial research.",
+    url: "https://www.webtoons.com/en/sf/mosquito-wars/list?title_no=2404"
+  },
+  {
+    title: "The Horizon",
+    category: "Drama · Post-apocalyptic",
+    concepts: ["apocalypse", "survival", "friendship", "grief", "children", "journey", "humanity", "trauma"],
+    reason: "After an apocalypse, a boy and girl meet amid the devastation and keep searching together for a safe haven.",
+    url: "https://www.webtoons.com/en/drama/the-horizon/list?title_no=3141"
+  }
+];
+
+const conceptAliases = {
+  "love": ["romance", "relationships"],
+  "romantic": ["romance"],
+  "sport": ["sports", "boxing"],
+  "friendship": ["relationships"],
+  "friend": ["friendship"],
+  "friends": ["friendship", "relationships"],
+  "sci fi": ["science fiction"],
+  "sci-fi": ["science fiction"],
+  "scifi": ["science fiction"],
+  "zombie": ["monsters", "apocalypse"],
+  "ghost": ["horror"],
+  "surviving": ["survival"],
+  "reborn": ["rebirth", "second chance"],
+  "reincarnation": ["rebirth", "second chance"],
+  "revenge story": ["revenge"],
+  "mental health": ["psychology", "emotions"],
+  "feelings": ["emotions"],
+  "sports": ["boxing", "competition"],
+  "workplace": ["work"],
+  "career": ["work", "ambition"],
+  "everyday": ["daily life", "everyday life"],
+  "psychological": ["psychology", "emotions"],
+  "building": ["construction", "public works"],
+  "cooking": ["food"],
+  "magic": ["fantasy"],
+  "time loop": ["second chance", "time travel"]
+};
+
+function renderConceptFinder() {
+  return `<section class="slide appendix concept-finder" id="concept-finder" aria-labelledby="concept-title" aria-hidden="true"><div class="appendix-copy"><p class="eyebrow">EXPLORE / SEARCH BY IDEA <span>NOT BY TITLE</span></p><h2 id="concept-title">What if a story<br><em>started with…</em></h2><p class="lede">Search a theme, feeling, setting, or “what if.” Get examples from Korean webtoons, with a short reason and an official series page to check.</p><form class="concept-form" id="concept-search-form" role="search"><label for="concept-query">YOUR CONCEPT</label><div class="concept-search-row"><input id="concept-query" type="search" maxlength="80" placeholder="try “second chance”, “boxing”, “grief”…" autocomplete="off" aria-controls="concept-results"><button type="submit">FIND EXAMPLES <span>↗</span></button></div></form><div class="concept-suggestions" aria-label="Example searches">${["second chance","friendship","horror","sports","grief","comedy"].map((term)=>`<button type="button" data-concept="${esc(term)}">${esc(term)}</button>`).join("")}</div><div class="concept-results" id="concept-results" aria-live="polite" aria-atomic="true"></div><p class="concept-coverage"><b>ABOUT THIS SEARCH</b> A hand-tagged sample of ${conceptCatalog.length} English-language titles from WEBTOON's official catalog—not a live or exhaustive search. “No close matches” means none in this sample, not that no such webtoon exists. Tags are editorial, and each card links to its official series page.</p></div></section>`;
+}
+
+function normalizeConcept(value) {
+  return value.toLocaleLowerCase().normalize("NFKD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function findConceptMatches(query) {
+  const normalized = normalizeConcept(query);
+  if (!normalized) return [];
+  const terms = [normalized, ...(conceptAliases[normalized] || [])].flatMap((term)=>normalizeConcept(term).split(" "));
+  return conceptCatalog.map((entry)=>{
+    const concepts = entry.concepts.map(normalizeConcept);
+    const score = concepts.reduce((total,concept)=>total + (terms.some((term)=>concept.split(" ").includes(term)) ? 1 : 0),0);
+    return { entry, score };
+  }).filter((result)=>result.score>0).sort((a,b)=>b.score-a.score).map(({entry})=>entry);
+}
+
+function renderConceptResults(query) {
+  const results = document.getElementById("concept-results");
+  if (!results) return;
+  const matches = findConceptMatches(query);
+  if (!normalizeConcept(query)) {
+    results.innerHTML = `<p class="concept-prompt">Choose an example above or enter an idea to see what turns up.</p>`;
+    return;
+  }
+  if (!matches.length) {
+    results.innerHTML = `<p class="concept-prompt">No close matches for <b>${esc(query)}</b> in this small sample. Try a related idea—this isn't evidence that no webtoon exists.</p>`;
+    return;
+  }
+  results.innerHTML = `<p class="concept-count"><b>${matches.length} ${matches.length===1?"EXAMPLE":"EXAMPLES"} FOUND</b> for “${esc(query)}” in this sample</p><div class="concept-grid">${matches.map((entry)=>`<article class="concept-card"><div class="concept-card-heading"><h3>${esc(entry.title)}</h3><span>${esc(entry.category)}</span></div><p>${esc(entry.reason)}</p><a href="${esc(entry.url)}" target="_blank" rel="noopener noreferrer">Official WEBTOON series page ↗</a></article>`).join("")}</div>`;
+}
 
 const vocabulary = [
   ["01","Manhwa","The Korean term for comics; it includes print and digital works."],
@@ -243,7 +393,7 @@ function renderSpeakers() {
   return `<section class="slide appendix speaker-guide" id="speakers" aria-labelledby="speaker-title" aria-hidden="true"><div class="appendix-copy"><p class="eyebrow">APPENDIX / 03 <span>12-MINUTE RUN OF SHOW</span></p><h2 id="speaker-title">Six voices.<br><em>Equal time.</em></h2><p class="lede">Six editable placeholders, two 60-second scenes each. Replace the labels with names; they are saved on this device only.</p><div class="speaker-table"><div class="speaker-row head"><span>TIME</span><span>NAME (EDITABLE)</span><span>SCENES</span></div>${rows}</div><div class="speaker-tools"><button class="reset" id="reset-speakers">RESET NAMES</button><span>Print this page with HANDOUTS → Print / save as PDF.</span></div><p class="caution">The assignment brief allows 10–15 minutes and 5–6 group members with equal English speaking time. Six presenters get 2 minutes each here. For five presenters, target 2 minutes 24 seconds each: assign two scenes apiece, then divide the remaining 2 minutes into five equal 24-second segments.</p></div></section>`;
 }
 
-app.innerHTML = scenes.map(renderScene).join("") + renderReferences() + renderVocabulary() + renderSpeakers();
+app.innerHTML = scenes.map(renderScene).join("") + renderConceptFinder() + renderReferences() + renderVocabulary() + renderSpeakers();
 const allSlides = [...document.querySelectorAll(".slide")];
 const sceneSlides = allSlides.slice(0, scenes.length);
 document.getElementById("total").textContent = String(scenes.length).padStart(2,"0");
@@ -315,6 +465,17 @@ document.getElementById("reset-speakers").addEventListener("click",()=>{
 
 document.getElementById("prev").addEventListener("click",()=>step(-1));
 document.getElementById("next").addEventListener("click",()=>step(1));
+document.getElementById("concept-finder-open").addEventListener("click",()=>show(allSlides.findIndex((slide)=>slide.id==="concept-finder")));
+document.getElementById("concept-search-form").addEventListener("submit",(event)=>{
+  event.preventDefault();
+  renderConceptResults(document.getElementById("concept-query").value);
+});
+document.querySelectorAll("[data-concept]").forEach((button)=>button.addEventListener("click",()=>{
+  const input=document.getElementById("concept-query");
+  input.value=button.dataset.concept;
+  renderConceptResults(input.value);
+  input.focus();
+}));
 document.getElementById("notes").addEventListener("click",()=>{
   const note=allSlides[activeIndex].querySelector(".talk-track");
   if(note)note.classList.toggle("visible");
